@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aula 11</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .container {
+        background-color: yellow;
+        padding: 10px;
+      }
+
+      @media (max-width: 576px) {
+        .col-4 {
+          background-color: green;
+        }
+      }
+      @media (min-width: 576px) {
+        .col-sm-12 {
+          background-color: red;
+        }
+      }
+      @media (min-width: 768px) {
+        .col-md-2 {
+          background-color: blue;
+        }
+      }
+      .col-4 {
+        background-color: none;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Aula 11</h1>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-4">
+          Coluna
+        </div>
+        <div class="col-4 col-sm-12">
+          Coluna
+        </div>
+        <div class="col-4 col-md-2">
+          Coluna
+        </div>
+        <div class="col-3">
+          Coluna
+        </div>
+        <div class="col-3">
+          Coluna
+        </div>
+        <div class="col-3">
+          Coluna
+        </div>
+        <div class="col-6">
+          Coluna
+        </div>
+        <div class="col-6">
+          Coluna
+        </div>
+        <div class="col-4">
+          Coluna
+        </div>
+        <div class="col-4">
+          Coluna
+        </div>
+        <div class="col-4">
+          Coluna
+        </div>
+        <div class="col">
+          Coluna
+        </div>
+        <div class="col">
+          Coluna
+        </div>
+        <div class="col">
+          Coluna
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

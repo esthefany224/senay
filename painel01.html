@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de solicitação de senha</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+body {
+    background-color: rgb(2, 2, 161);
+}
+
+.btn {
+    height: 2rem;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.btn-balcao {
+    background-color: rgb(179, 179, 179);
+    color: #000;
+}
+
+.btn-senha {
+    background-color: rgb(179, 179, 179);
+    color: #000;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+marquee {
+    color: aliceblue;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.primeira-linha .btn-group .btn {
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.primeira-linha .col-4{
+   display: flex;
+   align-items: end;
+}
+.primeira-linha .col-8 .btn{
+   color: #fff;
+}
+
+</style>
+<body>
+    <div class="container text-center d-flex flex-column">
+        <div class="row primeira-linha">
+            <div class="col-8">
+                <button type="button" class="btn">ATENDE FACIL </button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn ">Balcão</button>
+                    <button type="button" class="btn">Numero</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center d-flex flex-column">
+            <div class="row mb-3">
+                <div class="col-8">
+                    <button type="button" class="btn btn-danger">Atendimento Geral</button>
+                </div>
+                <div class="col-4">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-balcao">A</button>
+                        <button type="button" class="btn btn-senha">123</button>
+                    </div>
+                </div>
+            </div>
+    
+
+        <div class="row mb-3">
+            <div class="col-8">
+                <button type="button" class="btn btn-success">Trocas e Devoluções</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">A</button>
+                    <button type="button" class="btn btn-senha">123</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-8">
+                <button type="button" class="btn btn-primary">Serviços Financeiros</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">A</button>
+                    <button type="button" class="btn btn-senha">123</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-danger">Apoio Técnico</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">A</button>
+                    <button type="button" class="btn btn-senha">123</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<marquee>Este texto vai "rolar" da direita para esquerda </marquee>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
